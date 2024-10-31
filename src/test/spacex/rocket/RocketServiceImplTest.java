@@ -11,7 +11,7 @@ import spacex.rocket.service.RocketServiceImpl;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-public class RocketServiceTest {
+public class RocketServiceImplTest {
 
     private RocketService rocketService;
     private Mission testMission;

@@ -12,7 +12,7 @@ import spacex.rocket.model.RocketStatus;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-public class MissionServiceTest {
+public class MissionServiceImplTest {
 
     private MissionService missionService;
     private Mission mission;
