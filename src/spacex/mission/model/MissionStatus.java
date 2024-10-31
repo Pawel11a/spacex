@@ -1,4 +1,4 @@
-package spacex.model;
+package spacex.mission.model;
 
 public enum MissionStatus {
     SCHEDULED,

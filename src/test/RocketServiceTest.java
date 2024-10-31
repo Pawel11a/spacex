@@ -2,9 +2,10 @@ package test;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import spacex.model.Mission;
-import spacex.model.Rocket;
-import spacex.service.RocketService;
+import spacex.mission.model.Mission;
+import spacex.rocket.model.Rocket;
+import spacex.rocket.service.RocketService;
+import spacex.rocket.service.RocketServiceImpl;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -15,7 +16,7 @@ public class RocketServiceTest {
 
     @BeforeEach
     void setUp() {
-        rocketService = new RocketService();
+        rocketService = new RocketServiceImpl();
         testMission = new Mission("Test Mission");
     }
 

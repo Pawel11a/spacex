@@ -1,4 +1,4 @@
-package spacex.model;
+package spacex.rocket.model;
 
 public enum RocketStatus {
     ON_GROUND,

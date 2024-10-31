@@ -1,4 +1,6 @@
-package spacex.model;
+package spacex.mission.model;
+
+import spacex.rocket.model.Rocket;
 
 import java.util.ArrayList;
 import java.util.List;
